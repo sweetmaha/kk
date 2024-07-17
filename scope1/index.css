@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.background{
+    height: 100vh;
+    background: url('./asserts/bg_us.jpg'),no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    text-align: center;
+    margin-left: 90px;
+    padding-top: 60px;
+    font-size: 50px;
+    color: white;
+    font-family: "Margarine", sans-serif;
+    text-shadow: 3px 5px 8px rgb(223, 220, 58);
+}
+
+.box{
+    height: 340px;
+    /* width: 50%; */
+    background-color: red;
+}
+
+.navbar{
+    background-color: black !important;
+}
+.bg2{
+    height: 100vh;
+    background: url(./asserts/bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+.b{
+  margin-left: 70%;
+  margin-top: 20px;
+  color: rgb(222, 135, 203);
+  position: absolute;
+  text-shadow: 0cqb;
+  text-decoration: underline;
+  text-decoration-color: bisque;
+}
+.bg3{
+    height: 100vh;
+    background: url(./asserts/sauropod-dinosaur-nature.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.bg3:hover{
+  scale: 1.1;
+  transition: 3s;
+}
+
+.null{
+    position: relative;
+    margin-left: 70%;
+    padding-top: 90px;
+    color: rgb(200, 228, 219);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button {
+    background-color: #ffffff00;
+    color: #fff;
+    width: 8.5em;
+    height: 2.9em;
+    border: #3654ff 0.2em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+  }
+  
+  .button:hover {
+    background-color: #3654ff;
+    cursor: pointer;
+  }
+  
+  .button svg {
+    width: 1.6em;
+    margin: -0.2em 0.8em 1em;
+    position: absolute;
+    display: flex;
+    transition: all 0.6s ease;
+  }
+  
+  .button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .text {
+    margin: 0 1.5em
+  }
+
+  .box2{
+    /* background-color: orange; */
+    margin-top: 40px;
+    margin-left: 940px;
+  }
+  .box3{
+    text-decoration-line: underline;
+    margin-left:65% ;
+    margin-top: 200px;
+    position: absolute;
+    color: lightblue;
+  }
+  .box4{
+    margin-left:65%;
+    margin-top: 270px;
+    position: absolute;
+    color: rgb(231, 240, 232);
+  }
+  .bg4{
+    height: 480px;
+    background: url(./asserts/pterodactylus-nature.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 50px;
+    font-size: 30px;
+    padding-top: 100px;
+
+  }
+  .box5{
+    color:rgb(104, 16, 70);
+  }
+
+  .cv2{
+    background-color: transparent;
+    /* margin-top:   0px;  */
+    height: 30px;
+    width: 90px;
+    font-size: 10px;
+    border-radius: 30px;
+  }
+  .cv2:hover{
+    color: aqua;
+    background-color: #3654ff;
+    transition: 1s;
+  }
+  .mm{
+    margin-top: 20px;
+  }
+  .cv3{
+    height: 30px;
+    width: 90px;
+    font-size: 10px;
+    border-radius: 30px;
+  }
+  .cv3:hover{
+    color: aqua;
+    background-color: #3654ff;
+  }
+  .cv4{
+    height: 30px;
+    width: 90px;
+    font-size: 10px;
+    border-radius: 30px;
+  }
+  .cv4:hover{
+    color: aqua;
+    background-color: #3654ff;
+  }
+
+  .box6{
+    color: rgb(104, 16, 70);
+
+   
+  }
+  .mk{
+    /* height: 30px;
+    width: 90px; */
+    /* font-size: 10px;
+     /* margin-top: 20px;  */
+    color: blue; 
+       margin-top: 20px;  
+   
+  }
+  .mk1{
+    color: rgb(5, 5, 22);
+    font-size: 15px;
+    margin-top: 5px;
+    color:white;
+    cursor: pointer;
+  }
+  .mk1:hover{
+    color: aqua;
+    background-color: #3654ff;
+  }
+  .box7{
+    color: rgb(104, 16, 70);
+  }
+  .mk2{
+    margin-top: 20px;  
+    color: aliceblue;
+  }
+  .mk3{
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .mk3:hover{
+    color: aqua;
+    background-color: #3654ff;
+    cursor:pointer ;
+  }
+  .footer{
+    height: 120px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    gap: 85px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px ;
+  }
+  .c1:hover{
+   background-color: brown;
+   cursor: pointer;
+
+  }
+  .foot{
+    height: 90px;
+    width: 100%;
+    /* display: flex; */
+    background-color: blue;
+    color: aliceblue;
+    position: relative;
+    /* gap: 20px; */
+  }
+.mb{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 30px;
+
+}
+.mb p{
+  margin-left: 300px;
+}
+.jk{
+  border-radius: 30px;
+  size: 10px;
+  
+}
+.jk:hover{
+  color: black;
+  background-color: red;
+}
+.cv{
+  position: relative;
+}
+.vc{
+  margin-left: 820px;
+  position: absolute;
+  margin-top: 20px;
+
+}
